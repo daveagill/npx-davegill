@@ -13,10 +13,10 @@ const accolades = chalk.cyan(
 
 const findMeOnline =
     chalk.green('Find me the World Wide Web:\n\n') +
-    ' ' + chalk.bold.black.bgGreen('  Website ') + chalk.cyan('   https://davegill.dev\n') +
-    ' ' + chalk.bold.black.bgWhite('   GitHub ') + chalk.cyan('   https://github.com/daveagill\n') +
-    ' ' + chalk.bold.black.bgHex('#1da1f2')('  Twitter ') + chalk.cyan('   https://twitter.com/DaveAGill\n') +
-    ' ' + chalk.bold.black.bgHex('#007bb5')(' LinkedIn ') + chalk.cyan('   https://linkedin.com/in/daveagill');
+    ' ' + chalk.bold.hex('#000').bgGreen('  Website ') + chalk.cyan('   https://davegill.dev\n') +
+    ' ' + chalk.bold.hex('#000').bgWhite('   GitHub ') + chalk.cyan('   https://github.com/daveagill\n') +
+    ' ' + chalk.bold.hex('#000').bgHex('#1da1f2')('  Twitter ') + chalk.cyan('   https://twitter.com/DaveAGill\n') +
+    ' ' + chalk.bold.hex('#000').bgHex('#007bb5')(' LinkedIn ') + chalk.cyan('   https://linkedin.com/in/daveagill');
 
 const bye =  chalk.green('Cya!');
 
