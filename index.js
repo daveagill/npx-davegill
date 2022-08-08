@@ -12,7 +12,7 @@ const accolades = chalk.cyan(
     '\n• Creator of ' + chalk.bold('Slantt.co'));
 
 const findMeOnline =
-    chalk.green('Find me the World Wide Web:\n\n') +
+    chalk.green('Find me on the World Wide Web:\n\n') +
     ' ' + chalk.bold.hex('#000').bgGreen('  Website ') + chalk.cyan('   https://davegill.dev\n') +
     ' ' + chalk.bold.hex('#000').bgWhite('   GitHub ') + chalk.cyan('   https://github.com/daveagill\n') +
     ' ' + chalk.bold.hex('#000').bgHex('#1da1f2')('  Twitter ') + chalk.cyan('   https://twitter.com/DaveAGill\n') +
