@@ -1,0 +1,24 @@
+{
+  "name": "davegill",
+  "version": "1.0.0",
+  "description": "Digital calling card for Dave Gill.",
+  "homepage": "https://davegill.dev",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "davegill": "index.js"
+  },
+  "keywords": [
+    "david",
+    "dave",
+    "gill"
+  ],
+  "author": {
+    "name": "David Gill",
+    "url": "https://davegill.dev"
+  },
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1"
+  }
+}
